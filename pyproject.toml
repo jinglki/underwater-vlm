@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AquaRoute"
+version = "0.1.0"
+description = "Controlled image enhancement experiments for multimodal recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0", "Pillow>=10.0", "numpy>=1.26", "opencv-python-headless>=4.8", "tqdm>=4.66"]
+
+[project.optional-dependencies]
+inference = ["torch", "torchvision", "transformers", "accelerate", "huggingface-hub", "safetensors"]
+modelscope = ["modelscope"]
+
+[project.scripts]
+aquaroute = "aquaroute.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aquaroute*", "mama*"]

@@ -1,0 +1,6 @@
+# Install only in a NEW environment. Keep your working count environment intact.
+# Install matching CUDA torch/torchvision first, following pytorch.org.
+transformers
+accelerate
+huggingface-hub
+safetensors

@@ -1,0 +1,6 @@
+# Lightweight data/preparation/evaluation packages. Does not replace CUDA torch.
+PyYAML>=6.0
+Pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.8
+tqdm>=4.66

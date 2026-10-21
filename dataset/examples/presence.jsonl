@@ -1,0 +1,1 @@
+{"id":"presence-001","images":["../images/urchin.jpg"],"target":"海胆","question":"图中是否存在海胆？只判断是否存在。","truth":[{"present":true}]}

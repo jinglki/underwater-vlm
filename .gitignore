@@ -1,0 +1,17 @@
+models/*
+!models/.gitkeep
+img/enhance/
+runs/*
+!runs/.gitkeep
+results/*
+!results/.gitkeep
+__pycache__/
+*.pyc
+# Vendor source is included; keep repository metadata and generated caches out.
+enhance/**/.git/
+enhance/**/__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
